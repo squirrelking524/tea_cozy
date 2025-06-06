@@ -1,9 +1,48 @@
 * {
     font-family: Helvetica, sans-serif;
-    font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
 }
+
+/*header and nav bar section */
+
+.header {
+    top: 0;
+    overflow: hidden;
+    display: block;
+}
+#logo img {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    text-decoration: underline;
+    display: inline-flex;
+    padding: 10px;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+/*Mission section */
+
+.mission {
+    position: relative;
+    background-image: url("/images/img-mission-background.jpg");
+    max-height: 700px;
+    max-width: 1200px;
+    border-bottom: 1px solid seashell;
+}
+
+
 
